@@ -1,0 +1,136 @@
+//изменить свойства выбора ноутбоков на массив объектов
+[
+
+
+  {
+    "id": "0",
+    "imageurl": "https://cdn21vek.by/img/galleries/7009/518/preview_b/ideapadl315itl682hl006rre_lenovo_61ea8c72a9f84.jpeg",
+    "name": "Lenovo IdeaPad 3",
+    "casematerial": { "value": [0, 1], "price": [100, 50] },
+    "screendiagonal":   { "value": [14.0, 15.6, 16.0], "price": [110, 130,150] },
+    "operationalmemory": { "value":[4, 8, 16, 32],"price": [100,180 ,350, 530] },
+    "screentechnology": { "value":["TN+Film", "IPS", "S-IPS", "MVA"],"price": [210, 300,320,340] },
+    "diskconfiguration": { "value":["SSD", "HDD", "SSD+HDD"],"price": [600, 440,700] },
+    "price": 1120  ,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": "1",
+    "imageurl": "https://cdn21vek.by/img/galleries/65514/777/preview_b/e210magj239_asus_61853d80cd336.jpeg",
+    "name": "Asus E210MA-GJ239",
+    "casematerial": { "value": [0, 1], "price": [100, 50]},
+    "screendiagonal": {"value":[11.6, 13.4, 14.0],"price": [90, 100,120]},
+    "operationalmemory":{ "value": [4, 8, 16],"price": [100,180 ,350] },
+    "screentechnology": { "value":["TN+Film"],"price": [210] },
+    "diskconfiguration":{ "value": ["HDD"],"price": [440] },
+    "price": 940,
+    "category": 1,
+    "rating": 6
+  },
+  {
+    "id": "2",
+    "imageurl": "https://cdn21vek.by/img/galleries/6534/329/preview_b/rogstrixg15g513ihhn014_asus_60e6bbe967dfc.jpeg",
+    "name": "Asus ROG Strix",
+    "casematerial": { "value": [0], "price": [200] },
+    "screendiagonal": {"value":[14.4, 16.0, 17.3],"price": [200, 350,500]},
+    "operationalmemory":{"value": [8, 16, 32],"price": [100,200 ,400] },
+    "screentechnology": {"value":["S-IPS", "MVA"],"price": [400,380]},
+    "diskconfiguration":{"value": ["SSD", "HDD", "SSD+HDD"],"price": [700, 560,900]},
+    "price": 1600,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": "3",
+    "imageurl": "https://cdn21vek.by/img/galleries/7108/387/preview_b/smartbook141c6psb141c06chpmgcis_prestigio_61b333ebb2563.jpeg",
+    "name": "Prestigio Smartbook 141 C6 ",
+    "casematerial": { "value": [0], "price": [200] },
+    "screendiagonal": { "value":[14.0],"price": [500]},
+    "operationalmemory": { "value":[4, 8],"price": [150,240]},
+    "screentechnology": { "value":["TN+Film", "IPS"],"price": [500]},
+    "diskconfiguration": { "value":["SSD", "HDD"],"price": [210, 300,320]},
+    "price": 1560,
+    "category": 4,
+    "rating": 2
+  },
+  {
+    "id": "4",
+    "imageurl": "https://cdn21vek.by/img/galleries/6268/620/preview_b/macbookair13m12020256gbmgn63_apple_5fbe5881447ae.jpeg",
+    "name": "Apple MacBook Air 13 M1",
+    "casematerial": { "value": [0, 1], "price": [200, 300] },
+    "screendiagonal": { "value":[13.3, 14.0],"price": [200, 540] },
+    "operationalmemory":{ "value": [8, 16, 32],"price": [200, 540] },
+    "screentechnology": { "value":["IPS", "S-IPS", "MVA"],"price": [350,420,530]},
+    "diskconfiguration":{ "value": ["SSD", "HDD", "SSD+HDD"],"price": [800, 660,1100] },
+    "price": 1750,
+    "category": 5,
+    "rating": 8
+  },
+  {
+    "id": "5",
+    "imageurl": "https://cdn21vek.by/img/galleries/7365/49/preview_b/zenbook14um425uaam296_asus_624187f13f658.jpeg",
+    "name": "Asus ZenBook 14 ",
+    "casematerial": { "value": [0, 1], "price": [200, 300] },
+    "screendiagonal": { "value":[14.0, 14.4],"price": [500, 540] },
+    "operationalmemory":  { "value":[8, 16, 32],"price": [300, 440, 570] },
+    "screentechnology":  { "value":["TN+Film", "IPS", "S-IPS", "MVA"],"price": [210, 300,320,340] },
+    "diskconfiguration":  { "value":["SSD"],"price": [500] },
+    "price": 1710,
+    "category": 5,
+    "rating": 2
+  },
+  {
+    "id": "6",
+    "imageurl": "https://cdn21vek.by/img/galleries/7261/388/preview_b/legion515ach6h82ju0096re_lenovo_620b5ac3e8105.jpeg",
+    "name": "Lenovo Legion 5 ",
+    
+    "casematerial": { "value": [0], "price": [120] },
+    "screendiagonal": { "value": [15.6, 16.0, 17.3],"price": [500,540,670] },
+    "operationalmemory":  { "value":[8, 16, 32],"price": [300,440,650] },
+    "screentechnology":  { "value":["IPS", "S-IPS", "MVA"],"price": [300,320,340] },
+    "diskconfiguration":  { "value":["HDD", "SSD+HDD"],"price": [300,560] },
+    "price": 1520,
+    "category": 2,
+    "rating": 9
+  },
+  {
+    "id": "7",
+    "imageurl": "https://cdn21vek.by/img/galleries/7017/700/preview_b/ideapadgaming382k200hgre_lenovo_61ea945dbc32a.png",
+    "name": "Lenovo IdeaPad Gaming 3",
+    "casematerial": { "value": [0, 1], "price": [200, 300] },
+    "screendiagonal": { "value":[14.4, 15.6, 16.0],"price": [500, 570,640] },
+    "operationalmemory":{ "value": [4, 8, 16],"price": [130, 270,345] },
+    "screentechnology": { "value":["TN+Film", "IPS", "MVA"],"price": [210, 300,340] },
+    "diskconfiguration": { "value":["SSD", "HDD", "SSD+HDD"],"price": [500, 570,640] },
+    "price": 1540,
+    "category": 2,
+    "rating": 10
+  },
+  {
+    "id": "8",
+    "imageurl": "https://cdn21vek.by/img/galleries/7118/927/preview_b/aspire3a3155630fynxhs5eu024_acer_61bb08c609550.jpeg",
+    "name": "Acer Aspire 3 ",
+    "casematerial": { "value": [0, 1], "price": [200, 300] }, 
+    "screendiagonal": { "value":[13.3, 14.0, 14.4],"price": [400, 470,540] }, 
+    "operationalmemory":  { "value":[4, 8],"price": [400, 470,540] }, 
+    "screentechnology":  { "value":["TN+Film", "IPS"],"price": [400, 470,540] }, 
+    "diskconfiguration": { "value": ["SSD", "HDD"],"price": [400, 470,540] }, 
+    "price": 1800,
+    "category": 3,
+    "rating": 10
+  },
+  {
+    "id": "9",
+    "imageurl": "https://cdn21vek.by/img/galleries/6635/796/preview_b/pavilionx36014dy0006ur3b3q7ea_hp_621525c53f7f9.jpeg",
+    "name": " HP Pavilion x360",
+    "casematerial": { "value": [0, 1], "price": [180, 270] },
+    "screendiagonal": { "value":[14.4, 15.6, 16.0],"price": [500, 660,730] },
+    "operationalmemory": { "value":[4, 8, 16],"price": [100, 260,330] },
+    "screentechnology": { "value":["TN+Film", "IPS", "S-IPS", "MVA"],"price": [210, 300,320,340] },
+    "diskconfiguration": { "value":["SSD", "HDD", "SSD+HDD"],"price": [600, 440,700] },
+    "price": 1590,
+    "category": 3,
+    "rating": 7
+  }
+]
